@@ -1,19 +1,23 @@
 
 <template>
   <div id="app">
-    <HelloWorld />
+
+    <main_section />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Main_section from "./components/main/main_section.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Main_section,
   }
 }
 </script>
 
 <style src="./style.css"></style>
+
+
+

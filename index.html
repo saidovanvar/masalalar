@@ -6,50 +6,7 @@
     <title>Vue App</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<script>
-    tailwind.config = {
-        theme: {
-            extend: {
-                animation: {
-                    'bounce-slow': 'bounce 2s infinite',
-                    'pulse-slow': 'pulse 3s infinite',
-                    'slide-up': 'slideUp 0.3s ease-out',
-                    'slide-down': 'slideDown 0.3s ease-out',
-                    'fade-in': 'fadeIn 0.3s ease-out',
-                    'fade-out': 'fadeOut 0.3s ease-out',
-                    'scale-in': 'scaleIn 0.2s ease-out',
-                    'wiggle': 'wiggle 1s ease-in-out infinite',
-                },
-                keyframes: {
-                    slideUp: {
-                        '0%': { transform: 'translateY(20px)', opacity: '0' },
-                        '100%': { transform: 'translateY(0)', opacity: '1' }
-                    },
-                    slideDown: {
-                        '0%': { transform: 'translateY(-20px)', opacity: '0' },
-                        '100%': { transform: 'translateY(0)', opacity: '1' }
-                    },
-                    fadeIn: {
-                        '0%': { opacity: '0' },
-                        '100%': { opacity: '1' }
-                    },
-                    fadeOut: {
-                        '0%': { opacity: '1' },
-                        '100%': { opacity: '0' }
-                    },
-                    scaleIn: {
-                        '0%': { transform: 'scale(0.8)', opacity: '0' },
-                        '100%': { transform: 'scale(1)', opacity: '1' }
-                    },
-                    wiggle: {
-                        '0%, 100%': { transform: 'rotate(-3deg)' },
-                        '50%': { transform: 'rotate(3deg)' }
-                    }
-                }
-            }
-        }
-    }
-</script>
+
 <body>
 <div id="app"></div>
 <script type="module" src="/src/main.js"></script>
