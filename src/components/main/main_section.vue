@@ -81,7 +81,7 @@
                   @click="decreaseQty(product)"
                   class="w-6 h-6 border border-[#8A8A8A] flex items-center justify-center"
               >-</button>
-              <button class="mt-2 text-gray-500 hover:text-black"><img src="../../assets/Group%2095.svg" alt=""></button>
+              <button class="mt-[21px] text-gray-500 hover:text-black"><img src="../../assets/Group%2095.svg" alt=""></button>
             </div>
           </div>
          <div class="flex gap-[54px] items-end">
