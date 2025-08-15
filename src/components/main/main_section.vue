@@ -1,6 +1,5 @@
 <template>
   <div class="bg-[#F6F6F6] min-h-screen">
-    <!-- HEADER -->
     <header class="flex items-center justify-between px-8 py-4  border-b">
       <div class="flex items-center gap-8">
         <button class="flex flex-col gap-[4px]">
@@ -22,7 +21,6 @@
       </div>
     </header>
 
-    <!-- MAIN CONTENT -->
     <div class="flex gap-[199px] p-8">
       <div class="flex gap-[62px]">
         <div
@@ -124,7 +122,6 @@
       </div>
     </div>
 
-    <!-- SUCCESS MODAL -->
     <transition name="fade">
       <div
           v-if="isModalOpen"
