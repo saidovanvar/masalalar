@@ -1,0 +1,16 @@
+.box{
+    background-image: url("./assets/160644.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 250vh;
+}
+.box2{
+    background-image: url("./assets/160644.jpg");
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    width: 100vw;
+}
+body::-webkit-scrollbar {
+    display: none;
+}

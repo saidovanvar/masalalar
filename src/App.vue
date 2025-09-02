@@ -1,23 +1,7 @@
-
 <template>
-  <div id="app">
-
-    <main_section />
-  </div>
+  <Header/>
+<router-view></router-view>
 </template>
-
-<script>
-import Main_section from "./components/main/main_section.vue";
-
-export default {
-  name: 'App',
-  components: {
-    Main_section,
-  }
-}
+<script setup>
+import Header from "./components/header/header.vue";
 </script>
-
-<style src="./style.css"></style>
-
-
-
